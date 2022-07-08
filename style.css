@@ -1,0 +1,17 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-line-colur {
+    color: blue;
+}
+
+section {
+    display: flex;
+}
+
+.fliex-contain {
+    white-space: 50%;
+    padding: 8%;
+
+}
