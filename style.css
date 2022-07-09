@@ -3,62 +3,59 @@ body {
     margin: 0%;
 }
 
-.header-line-colur {
-    color: blue;
+h1 {
+    font-size: 50px;
 }
 
-.link-colour {
-    text-decoration: none;
-    background-image: linear-gradient(orange, tomato);
-    padding-left: 5%;
-    padding-right: 8%;
-    border-radius: 30px;
-    font-weight: 700;
+h2 {
+    font-size: 32px;
 }
 
+.span-color {
+    color: chocolate;
+}
 
-.section-contain {
+.first-section {
     display: flex;
-    margin-bottom: 100px;
 }
 
-.fliex-contain {
+.half-widh {
     width: 50%;
-    padding: 5%;
+    padding-left: 3%;
+
+}
+
+.link-add {
+    text-decoration: none;
+    background-image: linear-gradient(rgba(229, 255, 0, 0.979), rgb(226, 109, 88));
+    padding-left: 10px;
+    padding-right: 10px;
     border-radius: 20px;
-    background-color: white;
-    box-shadow: 10px 10px 30px #aaaaaa;
+    font-weight: 700;
+
 
 }
 
-.top-banner {
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
+.exprinece-half-width {
+    width: 37%;
+    padding-left: 5%;
+    padding-right: 2%;
 
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 8%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px;
 }
 
-.second-banner {
-    background-image: url(images/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
-
+#border-colour {
+    border-left: red solid;
 }
 
-.background-add {
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
+#div-colour {
+    border-left: blue solid;
 }
 
-.exprience-part {
-    display: flex;
-
-}
-
-
-#div-border {
-    border-left: solid 5px red;
-}
-
-#div-2-border {
-    border-left: solid 5px blue;
+footer {
+    text-align: center;
 }
