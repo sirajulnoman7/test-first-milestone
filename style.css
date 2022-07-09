@@ -19,6 +19,23 @@ h2 {
     display: flex;
 }
 
+#first-background {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+#second-backgraund {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#thard-background {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+
+}
+
 .half-widh {
     width: 50%;
     padding-left: 3%;
